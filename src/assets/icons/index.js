@@ -1,8 +1,8 @@
 import ICHomePrimary from "./ICHomePrimary.svg";
 import ICHomeSecondary from "./ICHomeSecondary.svg";
-import ICListPrimary from "./ICListPrimary.svg";
-import ICListSecondary from "./ICListSecondary.svg";
-import ICUserPrimary from "./ICUserPrimary.svg";
-import ICUserSecondary from "./ICUserSecondary.svg";
+import ICHistoryPrimary from "./ICHistoryPrimary.svg";
+import ICHistorySecondary from "./ICHistorySecondary.svg";
+import ICSettingPrimary from "./ICSettingPrimary.svg";
+import ICSettingSecondary from "./ICSettingSecondary.svg";
 
-export {ICHomePrimary, ICHomeSecondary, ICListPrimary, ICListSecondary, ICUserPrimary, ICUserSecondary};
+export {ICHomePrimary, ICHomeSecondary, ICHistoryPrimary, ICHistorySecondary, ICSettingPrimary, ICSettingSecondary};

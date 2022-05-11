@@ -2,7 +2,7 @@ import React from "react";
 import {createMaterialBottomTabNavigator} from "@react-navigation/material-bottom-tabs";
 import {SettingTemplate} from "../../templates";
 import HomeTemplate from "../../templates/HomeTemplate";
-import {ICHomePrimary, ICHomeSecondary, ICListPrimary, ICListSecondary, ICUserPrimary, ICUserSecondary} from "../../assets";
+import {ICHistoryPrimary, ICHistorySecondary, ICHomePrimary, ICHomeSecondary, ICSettingPrimary, ICSettingSecondary} from "../../assets";
 import {colors, image, size} from "../../themes";
 import {SvgXml} from "react-native-svg";
 
@@ -21,11 +21,11 @@ function BottomTabs() {
       }}/>
       <Tab.Screen name='History' component={SettingTemplate} options={{
         tabBarIcon: ({focused}) => <SvgXml width={image.small}
-          height={image.small} xml={focused ? ICListPrimary : ICListSecondary} />
+          height={image.small} xml={focused ? ICHistoryPrimary : ICHistorySecondary} />
       }}/>
       <Tab.Screen name='Settings' component={SettingTemplate} options={{
         tabBarIcon: ({focused}) => <SvgXml width={image.small}
-          height={image.small} xml={!focused ? ICUserPrimary : ICUserSecondary} />
+          height={image.small} xml={focused ? ICSettingPrimary : ICSettingSecondary} />
       }}/>
     </Tab.Navigator>
   );

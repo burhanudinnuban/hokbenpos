@@ -4,7 +4,7 @@ import {SplashOrg} from "../../components";
 const SplashTemplate = ({navigation}) => {
   React.useEffect(() => {
     setTimeout(() => {
-      navigation.replace("Home");
+      navigation.replace("Main");
     }, 1000);
   }, []);
 

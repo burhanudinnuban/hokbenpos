@@ -8,7 +8,7 @@ const size = {
 };
 
 const image = {
-  small: (metrics.screenWidth) / 12,
+  small: (metrics.screenWidth) / 16,
   medium: (metrics.screenWidth) / 8,
   large: (metrics.screenWidth) / 4,
   xlarge: (metrics.screenWidth) / 2,

@@ -4,6 +4,7 @@ import * as React from "react";
 import {NavigationContainer} from "@react-navigation/native";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {HomeScreen, SplashScreen} from "../templates";
+import BottomTabs from "./BottomTabs";
 
 const Stack = createNativeStackNavigator();
 
@@ -11,6 +12,12 @@ function MainNavigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName='SplashScreen'>
+        <Stack.Screen 
+          name='Main' 
+          component={BottomTabs} 
+          options={{
+            headerShown: false,
+          }}/>
         <Stack.Screen
           name='Home'
           component={HomeScreen}

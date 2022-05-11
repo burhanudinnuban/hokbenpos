@@ -1,4 +1,4 @@
-const {default: metrics} = require('./metrics');
+const {default: metrics} = require("./metrics");
 
 const size = {
   font6: metrics.screenWidth * 0.04,
@@ -11,17 +11,17 @@ const size = {
 };
 
 const weight = {
-  bold: '700',
-  medium: '500',
-  regular: '400',
-  light: '300',
+  bold: "700",
+  medium: "500",
+  regular: "400",
+  light: "300",
 };
 
 const family = {
-  regular: 'SFNSDisplay-Regular',
-  medium: 'SFNSDisplay-Medium',
-  bold: 'SFNSDisplay-Bold',
-  light: 'SFNSDisplay-Light',
+  regular: "SFNSDisplay-Regular",
+  medium: "SFNSDisplay-Medium",
+  bold: "SFNSDisplay-Bold",
+  light: "SFNSDisplay-Light",
 };
 
 export {size, weight, family};

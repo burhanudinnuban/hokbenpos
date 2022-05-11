@@ -1,11 +1,16 @@
-import {View, Text} from 'react-native';
-import React from 'react';
+import {View, Text} from "react-native";
+import React from "react";
+import {SplashOrg} from "../../components";
 
-const SplashTemplate = () => {
+const SplashTemplate = ({navigation}) => {
+  React.useEffect(() => {
+    setTimeout(() => {
+      navigation.replace("Home");
+    }, 1000);
+  }, []);
+
   return (
-    <View>
-      <Text>SplashTemplate</Text>
-    </View>
+    <SplashOrg />
   );
 };
 

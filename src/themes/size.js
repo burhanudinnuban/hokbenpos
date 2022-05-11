@@ -1,4 +1,4 @@
-import metrics from './metrics';
+import metrics from "./metrics";
 
 const size = {
   small: 4,
@@ -8,10 +8,10 @@ const size = {
 };
 
 const image = {
-  small: (metrics.screenWidth * 100) / 5,
-  medium: (metrics.screenWidth * 100) / 10,
-  large: (metrics.screenWidth * 100) / 25,
-  xlarge: (metrics.screenWidth * 100) / 50,
+  small: (metrics.screenWidth) / 12,
+  medium: (metrics.screenWidth) / 8,
+  large: (metrics.screenWidth) / 4,
+  xlarge: (metrics.screenWidth) / 2,
 };
 
 export {size, image};

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330294096992",
+    "project_id": "hokbenpos",
+    "storage_bucket": "hokbenpos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330294096992:android:ef4c84120b0ff1943cbf05",
+        "android_client_info": {
+          "package_name": "com.hokbenpos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330294096992-6444r5786qu1qsjj7870nmv1n1vestpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDka0wLLjq68U-SUIm_a_vKECCXz213T2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330294096992-6444r5786qu1qsjj7870nmv1n1vestpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

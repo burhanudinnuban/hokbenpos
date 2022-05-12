@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {SplashOrg} from "../../components";
 
 const SplashTemplate = ({navigation}) => {
@@ -9,7 +9,9 @@ const SplashTemplate = ({navigation}) => {
   }, []);
 
   return (
-    <SplashOrg />
+    <Fragment>
+      <SplashOrg />
+    </Fragment>
   );
 };
 

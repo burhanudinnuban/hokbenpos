@@ -1,13 +1,12 @@
 const {default: metrics} = require("./metrics");
 
-const size = {
-  font6: metrics.screenWidth * 0.04,
-  font8: metrics.screenWidth * 0.05,
-  font10: metrics.screenWidth * 0.06,
-  font12: metrics.screenWidth * 0.07,
-  font14: metrics.screenWidth * 0.08,
-  font16: metrics.screenWidth * 0.09,
-  font20: metrics.screenWidth * 0.12,
+const fontSize = {
+  font10: metrics.screenWidth * 0.01,
+  font11: metrics.screenWidth * 0.02,
+  font12: metrics.screenWidth * 0.04,
+  font14: metrics.screenWidth * 0.06,
+  font16: metrics.screenWidth * 0.08,
+  font20: metrics.screenWidth * 0.10,
 };
 
 const weight = {
@@ -24,4 +23,4 @@ const family = {
   light: "SFNSDisplay-Light",
 };
 
-export {size, weight, family};
+export {fontSize, weight, family};

@@ -1,5 +1,24 @@
 {
   "id": "indonesia",
   "title": "judul",
-  "description": "deskripsi"
+  "description": "deskripsi",
+  "menu": "menu",
+  "bakpao": "bakpao",
+  "cocholate": "coklat",
+  "cheese": "keju",
+  "butter": "mentega",
+  "peaces": "buah",
+  "box": "kotak",
+  "dine_in": "ditempat",
+  "take_away": "bawa pulang",
+  "price": "harga",
+  "ingredients": "komposisi",
+  "customer": "pelanggan",
+  "table": "meja",
+  "number": "nomor",
+  "add": "tambah",
+  "delete": "hapus",
+  "cart": "keranjang",
+  "pay": "bayar"
+
 }

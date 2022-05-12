@@ -1,8 +1,8 @@
-import {createStore, applyMiddleware} from 'redux';
-import {persistStore} from 'redux-persist';
-import reducer from '../reducer';
-import createSagaMiddleware from 'redux-saga';
-import {rootSagas} from '../sagas';
+import {createStore, applyMiddleware} from "redux";
+import {persistStore} from "redux-persist";
+import reducer from "../reducer";
+import createSagaMiddleware from "redux-saga";
+import {rootSagas} from "../sagas";
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducer, applyMiddleware(sagaMiddleware));

@@ -1,15 +1,14 @@
-import {persistCombineReducers} from 'redux-persist';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import global from './global';
-import auth from './auth';
-import book from './book';
+import {persistCombineReducers} from "redux-persist";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import global from "./global";
+import cart from "./cart";
 
-const reducer = {global: global, auth: auth, book: book};
+const reducer = {global: global, cart: cart};
 
 const configReduxPersist = {
-  key: 'root',
+  key: "root",
   storage: AsyncStorage,
-  whitelist: ['auth', 'book'],
+  whitelist: ["cart"],
 };
 
 const reduxPersistReducer = persistCombineReducers(configReduxPersist, reducer);

@@ -1,10 +1,10 @@
-import {View, Text} from "react-native";
-import React from "react";
+import {Text} from "react-native";
+import React, {Fragment} from "react";
 
 const SettingTemplate = () => (
-  <View>
+  <Fragment>
     <Text>SettingTemplate</Text>
-  </View>
+  </Fragment>
 );
 
 export default SettingTemplate;

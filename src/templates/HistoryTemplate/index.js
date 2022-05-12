@@ -1,10 +1,10 @@
-import {View, Text} from "react-native";
-import React from "react";
+import {Text} from "react-native";
+import React, {Fragment} from "react";
 
 const HistoryTemplate = () => (
-  <View>
+  <Fragment>
     <Text>HistoryTemplate</Text>
-  </View>
+  </Fragment>
 );
 
 export default HistoryTemplate;

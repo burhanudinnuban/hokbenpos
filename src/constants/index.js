@@ -1,3 +1,3 @@
-export default {
-  nameApp: "Hokben POS"
+export const constant =  {
+  nameApp: "Hokben POS",
 };

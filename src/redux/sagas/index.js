@@ -1,6 +1,6 @@
-import {all} from 'redux-saga/effects';
-import {loginFlow, registerFlow} from '../handler/auth';
+import {all} from "redux-saga/effects";
+import {addCartFlow} from "../handler";
 
 export function* rootSagas() {
-  yield all([loginFlow(), registerFlow()]);
+  yield all([addCartFlow()]);
 }

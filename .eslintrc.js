@@ -81,6 +81,10 @@ module.exports = {
     "react/self-closing-comp": 2,
     "jsx-quotes": ["error", "prefer-single"],
     "object-curly-spacing": 2,
-    "no-console": 1,
+    "no-console": 0,
+    "no-empty": 0,
+    "no-irregular-whitespace": 0,
+    "no-fallthrough": ["error", {"commentPattern": "break[\\s\\w]*omitted"}],
+    "no-case-declarations": 0,
   },
 };

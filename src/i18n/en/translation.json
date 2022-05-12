@@ -1,5 +1,23 @@
 {
   "id": "english",
   "title": "title",
-  "description": "description"
+  "description": "description",
+  "menu": "menu",
+  "bakpao": "bakpao",
+  "cocholate": "cocholate",
+  "cheese": "cheese",
+  "butter": "butter",
+  "peaces": "peaces",
+  "box": "box",
+  "dine_in": "dine in",
+  "take_away": "Take Away",
+  "price": "price",
+  "ingredients": "ingredients",
+  "customer": "customer",
+  "table": "table",
+  "number": "number",
+  "add": "add",
+  "delete": "delete",
+  "cart": "cart",
+  "pay": "pay"
 }
